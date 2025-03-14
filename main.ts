@@ -2,7 +2,7 @@ let 周翰林寿命 = 0
 basic.showString("" + (周翰林寿命))
 cbit_小车类.CarCtrlSpeed(cbit_小车类.CarState.Car_Run, 0)
 if (input.buttonIsPressed(Button.A)) {
-	
+    cbit_小车类.CarCtrlSpeed(cbit_小车类.CarState.Car_Run, 200)
 }
 basic.forever(function () {
     周翰林寿命 = 0
